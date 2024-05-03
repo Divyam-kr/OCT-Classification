@@ -87,6 +87,8 @@ Summarize the project's outcomes, including the improvements made in OCT image q
 
 ## License
 
+![Alt text](https://www.google.com/imgres?q=leetcode&imgurl=https%3A%2F%2Fleetcode.com%2Fstatic%2Fimages%2FLeetCode_Sharing.png&imgrefurl=https%3A%2F%2Fleetcode.com%2F&docid=FvKQ9IiC6zPktM&tbnid=cQ8rt18AHdsZYM&vet=12ahUKEwj4jq_DyvCFAxWTdPUHHRh5APEQM3oECBQQAA..i&w=500&h=260&hcb=2&ved=2ahUKEwj4jq_DyvCFAxWTdPUHHRh5APEQM3oECBQQAA "Optional title")
+
 Provide information about the project's license.
 
 ---
