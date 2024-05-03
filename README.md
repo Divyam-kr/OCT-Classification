@@ -3,6 +3,7 @@
 Welcome to the OCT Image Processing and Classification project!
 Step into the world of ophthalmology, where Optical Coherence Tomography (OCT) rules diagnosis. OCT isn't just a fancy imaging technique; it's a game-changer in diagnosing and treating eye conditions. Think Age-related Macular Degeneration (AMD), Diabetic Retinopathy (DR), and Diabetic Macular Edema (DME) – OCT sees them all.But it's not just about taking pretty pictures. OCT gives us a close-up view of the retina's inner workings, helping doctors tailor treatments and catch issues early. That's why we're obsessed with getting the clearest, most detailed OCT images possible. It's not just about the tech – it's about making sure we can spot problems before they get serious.
 This project involves three main components:
+
 1.⁠ ⁠*Denoising*: OCT images are denoised using CycleGANs.
 
 2.⁠ ⁠*Super-Resolution*: Denoised images are enhanced using ESRGAN for super-resolution.
@@ -13,12 +14,11 @@ This project involves three main components:
 •⁠  ⁠[Project Overview](#project-overview)
 
 •⁠  ⁠[Methods](#methods)
-
-    - [Denoising with CycleGANs](#denoising-with-cyclegans)
+ - [Denoising with CycleGANs](#denoising-with-cyclegans)
     
-    - [Super-Resolution with ESRGAN](#super-resolution-with-esrgan)
+- [Super-Resolution with ESRGAN](#super-resolution-with-esrgan)
     
-    - [Volumetric Classification with 3D CNN](#volumetric-classification-with-3d-cnn)
+- [Volumetric Classification with 3D CNN](#volumetric-classification-with-3d-cnn)
     
 •⁠  ⁠[Data](#data)
 
