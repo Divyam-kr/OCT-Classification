@@ -48,6 +48,7 @@ This project demonstrates a comprehensive approach to processing and classifying
 •⁠  ⁠*Description*: After denoising, we enhance the images using ESRGAN to achieve super-resolution.
 
 •⁠  ⁠*Details*: The ESRGAN model is trained on pairs of low-resolution and high-resolution images to produce high-quality super-resolved images.Here the intial layer does the feature extreaction, the middle block has upsampling layer has transpose convolution with leaky relu activation finally the third block has the image reconstruction block to give us the super resolved image.
+
 ![Alt text](Images/esr gans.png "ESR GANs")
 
 
