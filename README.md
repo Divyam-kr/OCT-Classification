@@ -43,10 +43,13 @@ This project demonstrates a comprehensive approach to processing and classifying
 
 •⁠  ⁠*Details*: The CycleGAN model is trained using unpaired datasets to learn how to translate noisy images to denoised ones.where as the preliminary step we have used the median filter to remove noise then we have applied cycle gans for noise removal such that we feed the filtered image to one generator and non filtered image to the other generator.
 
+
 ### Super-Resolution with ESRGAN
 •⁠  ⁠*Description*: After denoising, we enhance the images using ESRGAN to achieve super-resolution.
 
 •⁠  ⁠*Details*: The ESRGAN model is trained on pairs of low-resolution and high-resolution images to produce high-quality super-resolved images.Here the intial layer does the feature extreaction, the middle block has upsampling layer has transpose convolution with leaky relu activation finally the third block has the image reconstruction block to give us the super resolved image.
+![Alt text](Images/esr gans.png "ESR GANs")
+
 
 ### Volumetric Classification with 3D CNN
 •⁠  ⁠*Description*: We classify volumetric OCT images using a 3D CNN architecture.
