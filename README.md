@@ -100,9 +100,9 @@ To set up the project, follow these steps:
 ## Results
 
 •⁠  ⁠*Result of Denoising*:
-    
-     ⁠![denoised](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/eac703dd-b629-46a6-bc60-4059c8462488)
+    ![denoised](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/49f6d4ec-c9d1-422d-b249-b5c39559f190)
 
+  
 
 •⁠  ⁠*Result of Super-Resolution*:
  
