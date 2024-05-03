@@ -22,10 +22,6 @@ This project involves three main components:
     
 •⁠  ⁠[Data](#data)
 
-•⁠  ⁠[Setup](#setup)
-
-•⁠  ⁠[Usage](#usage)
-
 •⁠  ⁠[Results](#results)
 
 •⁠  ⁠[Conclusion](#conclusion)
@@ -65,41 +61,6 @@ This project demonstrates a comprehensive approach to processing and classifying
 
 •⁠  ⁠*Dataset*: The dataset that we are working is divided into three classes namely diabetic, normal and non-diabetic patient. Inside each class we have the folders corresponding to a particular patient with oct scans taken at different angles and this number of angles is also variable depending on the number of images in that folder for that patient.
 
-## Setup
-
-To set up the project, follow these steps:
-1.⁠ ⁠Clone the repository:
-    ⁠ bash
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
-     ⁠
-
-2.⁠ ⁠Install required packages:
-    ⁠ bash
-    pip install -r requirements.txt
-     ⁠
-
-3.⁠ ⁠Download or prepare the dataset as described in the [Data](#data) section.
-
-4.⁠ ⁠Set up the project according to the documentation provided in the respective method sections.
-
-## Usage
-
-•⁠  ⁠*Denoising*:
-    ⁠ bash
-    python denoise.py --input <input_folder> --output <output_folder>
-     ⁠
-
-•⁠  ⁠*Super-Resolution*:
-    ⁠ bash
-    python super_resolution.py --input <input_folder> --output <output_folder>
-     ⁠
-
-•⁠  ⁠*Volumetric Classification*:
-    ⁠ bash
-    python classify.py --input <input_folder>
-     ⁠
-
 ## Results
 
 •⁠  ⁠*Result of Denoising*:
@@ -114,8 +75,7 @@ To set up the project, follow these steps:
 
 •⁠  ⁠*Result of Volumetric Classification*:
 ![Vol_class_output](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/129262f8-3b80-47bf-a0d1-7fd97024d439)
-
-    ⁠
+⁠
 ## Conclusion
 
 In conclusion, the use of machine learning models such as CycleGANs, super-resolution networks, and 3D CNNs for processing and analyzing OCT images has proven to be a successful approach for advancing medical imaging research. The CycleGAN model effectively denoised the OCT images, removing artifacts and enhancing image quality without the need for paired training data. Following the denoising process, the super-resolution model significantly improved the resolution and detail of the images, enabling better visualization and analysis. Finally, the 3D CNN model demonstrated robust performance in volumetric classification, successfully distinguishing between different classes of medical conditions based on the enhanced OCT scans.
