@@ -48,15 +48,15 @@ This project demonstrates a comprehensive approach to processing and classifying
 •⁠  ⁠*Description*: After denoising, we enhance the images using ESRGAN to achieve super-resolution.
 
 •⁠  ⁠*Details*: The ESRGAN model is trained on pairs of low-resolution and high-resolution images to produce high-quality super-resolved images.Here the intial layer does the feature extreaction, the middle block has upsampling layer has transpose convolution with leaky relu activation finally the third block has the image reconstruction block to give us the super resolved image.
+
 ![esr gans](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/10557349-17c1-42e1-a2c7-fe2c23c24621)
-
-
 
 
 ### Volumetric Classification with 3D CNN
 •⁠  ⁠*Description*: We classify volumetric OCT images using a 3D CNN architecture.
 
 •⁠  ⁠*Details*: The 3D CNN model is trained to classify images into different categories based on their volumetric features.Here we have used a 3D CNN model where we have fed it images of depth 3 that a single grayscale image is a combination of three grayscale images stacked together then finally the images are classified into the following three categories a)Normal b)Diabetic c)Non-Diabetic.
+<img width="529" alt="VolumetricClassification" src="https://github.com/Divyam-kr/OCT-Classification/assets/122778685/dcd988d9-b854-44e0-a17c-9c5122e3dacc">
 
 ## Data
 
@@ -101,17 +101,16 @@ To set up the project, follow these steps:
 
 •⁠  ⁠*Result of Denoising*:
     
-     ⁠
+     ⁠![denoised](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/eac703dd-b629-46a6-bc60-4059c8462488)
+
 
 •⁠  ⁠*Result of Super-Resolution*:
-    ⁠ bash
-    python super_resolution.py --input <input_folder> --output <output_folder>
-     ⁠
+ 
+<img width="297" alt="Super resolution output" src="https://github.com/Divyam-kr/OCT-Classification/assets/122778685/912f7bb1-020a-4425-a522-b55b4558a8c8">
+
 
 •⁠  ⁠*Result of Volumetric Classification*:
-    ⁠ bash
-    python classify.py --input <input_folder>
-
+    ⁠
 ## Conclusion
 
 In conclusion, the use of machine learning models such as CycleGANs, super-resolution networks, and 3D CNNs for processing and analyzing OCT images has proven to be a successful approach for advancing medical imaging research. The CycleGAN model effectively denoised the OCT images, removing artifacts and enhancing image quality without the need for paired training data. Following the denoising process, the super-resolution model significantly improved the resolution and detail of the images, enabling better visualization and analysis. Finally, the 3D CNN model demonstrated robust performance in volumetric classification, successfully distinguishing between different classes of medical conditions based on the enhanced OCT scans.
