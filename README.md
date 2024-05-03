@@ -15,7 +15,7 @@ This project involves three main components:
 
 •⁠  ⁠[Methods](#methods)
 
-  - [Denoising with CycleGANs](#denoising-with-cyclegans)
+    - [Denoising with CycleGANs](#denoising-with-cyclegans)
     
     - [Super-Resolution with ESRGAN](#super-resolution-with-esrgan)
     
