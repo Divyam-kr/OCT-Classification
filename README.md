@@ -88,7 +88,7 @@ Summarize the project's outcomes, including the improvements made in OCT image q
 ## License
 
 ![Alt text](https://assets.leetcode.com/static_assets/public/images/LeetCode_Sharing.png "Optional title")
-![Alt text](Images/esrgan.png "Optional title")
+![Alt text](Images/esrgan.jpg "ESR GANs")
 
 Provide information about the project's license.
 
