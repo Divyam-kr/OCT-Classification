@@ -42,6 +42,9 @@ This project demonstrates a comprehensive approach to processing and classifying
 •⁠  ⁠*Description*: OCT images often contain noise that can hinder analysis. We employ CycleGANs to denoise these images effectively.
 
 •⁠  ⁠*Details*: The CycleGAN model is trained using unpaired datasets to learn how to translate noisy images to denoised ones.where as the preliminary step we have used the median filter to remove noise then we have applied cycle gans for noise removal such that we feed the filtered image to one generator and non filtered image to the other generator.
+![cyclegan_architecture](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/2dcf69fa-26d3-4404-a074-6cfa76ae698b)
+
+
 
 
 ### Super-Resolution with ESRGAN
@@ -110,6 +113,8 @@ To set up the project, follow these steps:
 
 
 •⁠  ⁠*Result of Volumetric Classification*:
+![Vol_class_output](https://github.com/Divyam-kr/OCT-Classification/assets/122778685/129262f8-3b80-47bf-a0d1-7fd97024d439)
+
     ⁠
 ## Conclusion
 
